@@ -4,9 +4,13 @@ on:
   push:
     branches:
       - master
+    path:
+      - 'docs/**'
   pull_request:
     branches:
       - "**"
+    path:
+      - 'docs/**'
 
 env:
   FORCE_COLOR: 2
